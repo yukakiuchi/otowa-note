@@ -1,0 +1,1742 @@
+
+h1, h2, h3, h4, h5, h6, p, body {
+  line-height: 1.77;
+  font-size: 18px;
+  color: #4a4a4a;
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+/*
+
+■ main color
+（茶色）　#956F29
+
+
+
+*/
+
+
+
+/*背景色*/
+
+#wrapper{
+
+  display: flex;
+  flex-direction: column;
+  min-height: 120vh;
+
+background-color: #FFFFF1;
+
+
+}
+
+
+header{
+
+background-color: #649443;
+height: 80px;
+/*position: relative;*/
+overflow: hidden;
+
+}
+
+.gogo{
+display: inline-block;
+margin-left: 520px;
+width: 450px;
+
+}
+
+.headName{
+
+	display: inline-block;
+	margin-left: 0.5%;
+}
+
+.headIcon{
+
+	font-size: 42px;
+}
+
+/*トップページログイン関連*/
+.loginbutton{
+
+	font-size: 18.5px;
+	margin-left: 270px;
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+
+}
+
+.logoutbutton{
+	position: absolute;
+	top: 22px;
+	right:50px;
+	font-size: 18.5px;
+	width: 150px;
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+	text-decoration: none;
+	color: white;
+	display: inline-block;
+
+
+}
+
+
+.egg{
+
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+	text-decoration: none;
+	color: white;
+	margin-right: 3px;
+	display: inline-block;
+
+}
+
+.NameEgg{
+
+	font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+	text-decoration: none;
+	color: white;
+	margin-right: 1px;
+	display: inline-block;
+
+}
+
+.loginName{
+margin-left: 100px;
+font-size: 19px;
+font-family: 'ヒラギノ角ゴシック','Hiragino Sans',sans-serif;
+width: 150px;
+display: inline-block;
+color: white;
+text-decoration: none;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+}
+
+
+.headAll{
+
+text-decoration: none;
+font-family: futura;
+font-weight: 700;
+font-size: 42px;
+color: white;
+}
+
+header a:hover{
+
+opacity: 0.7;
+
+}
+
+
+
+footer {
+	color: white;
+  	background-color: #649443;
+  	text-align: center;
+  	display: block;
+  	margin-top: auto;
+}
+
+
+.topTitle{
+
+	color: white;
+	font-weight: bold;
+
+	font-size: 23px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.topTitleQ{
+
+	color: white;
+	font-weight: bold;
+
+	font-size: 23px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.topIntroduction{
+	
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-40%, -50%);
+
+}
+
+.topIntroductionQ{
+	
+	overflow: hidden;
+	display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 3;
+	color: white;
+	font-size: 16px;
+	position: absolute;
+	top: 50%;
+	left: 45%;
+	transform: translate(-40%, -50%);
+
+}
+
+
+
+.topStories{
+margin-top: 6%; 
+margin-left: 7%;
+margin-right: 7%; 
+height: 300px;
+width: 300px;
+/*border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;*/
+border-radius: 30px;
+border: solid 1px #CCCCCC;
+box-shadow: 2px 2px 10px green;
+float: left;
+background-size: cover;
+/*background-size: contain;*/
+/*background-size: 300px 300px;*/
+	
+
+}
+
+.topStoriesQ{
+margin-top: 6%; 
+margin-left: 7%;
+margin-right: 7%; 
+height: 300px;
+width: 300px;
+/*border-top-left-radius: 30px;
+border-bottom-right-radius: 30px;*/
+border-radius: 30px;
+border: solid 1px #CCCCCC;
+box-shadow: 2px 2px 10px green;
+float: left;
+background-size: cover;
+/*background-size: contain;*/
+/*background-size: 300px 300px;*/
+	
+
+}
+
+.topStories:hover{
+	position: relative;
+	top: 3px;
+	left: 3px;
+	box-shadow: 1px 1px 5px green;
+
+}
+
+.topStoriesQ:hover{
+	position: relative;
+	top: 3px;
+	left: 3px;
+	box-shadow: 1px 1px 5px green;
+
+}
+
+.iyayo{
+	position: relative;
+	height: 100%;
+	background: rgba(255,255,255,0.1);
+
+}
+
+.iyayoQ{
+	position: relative;
+	height: 100%;
+	background: rgba(255,255,255,0.1);
+
+}
+
+.iyayo:hover{
+
+	position: relative;
+
+	height: 100%;
+	background: rgba(255,255,255,0.2)
+}
+
+
+.iyayoQ:hover{
+
+	position: relative;
+
+	height: 100%;
+	background: rgba(255,255,255,0.2)
+}
+
+
+.basic{
+	width: 90%;
+	margin: 0 auto;
+}
+
+.post{
+
+	float: left;
+	width: 900px;
+	margin-bottom: 60px;
+
+}
+
+.postQ{
+
+	float: left;
+	width: 900px;
+
+}
+
+.information{
+	min-height: 100vh;
+	margin-top: 25px;
+	width: 300px;
+	float: right;
+	border-radius: 5px;
+	box-shadow: 2px 0px 10px 1px rgba(149,111,41,0.29);
+
+}
+
+.informationBox{
+
+
+	border: 3px solid #EBE1A9;
+	height: 110px;
+	margin: 0 auto 30px auto;
+	border-radius: 10px;
+	color: #956F29;/*文字色*/
+	width: 90%;
+	display: block;
+	text-decoration: none;
+
+
+}
+
+.imformationName{
+font-size: 15px;
+
+}
+
+.informationText{
+	display: -webkit-box;
+	-webkit-box-orient: vertical;
+	-webkit-line-clamp: 3 ;
+	font-size: 12px;
+	overflow: hidden;
+	width: 200px;
+	border-radius: 3px;
+	margin-top: 10px;
+
+}
+
+
+
+.storiesLink{
+text-decoration: none;
+
+}
+
+.storiesLinkQ{
+text-decoration: none;
+
+}
+
+.topSaku{
+
+	border-radius: 4px;
+	margin-top: 3%;
+	border: solid 1px;
+	text-align: center;
+	color: #956F29;
+}
+
+.topSakuQ{
+
+	border-radius: 4px;
+	margin-top: 3%;
+	border: solid 1px;
+	text-align: center;
+	color: #956F29;
+}
+
+.new{
+
+border-left: solid 6px rgba(179,128,0,0.8);
+color: #956F29;/*文字色*/
+box-shadow: 0px 2px 2px rgba(149,111,41,0.29);
+padding-left: 5%;
+margin-bottom: 20px;
+
+
+}
+
+.addButton{
+margin-top: 6%; 
+margin-left: 7%;
+margin-right: 7%; 
+height: 300px;
+width: 300px;
+border-radius: 30px;
+border: solid 1px #CCCCCC;
+box-shadow: 2px 2px 10px green;
+float: left;
+position: relative;
+
+}
+
+.addButtonQ{
+margin-top: 6%; 
+margin-left: 7%;
+margin-right: 7%; 
+height: 300px;
+width: 300px;
+border-radius: 30px;
+border: solid 1px #CCCCCC;
+box-shadow: 2px 2px 10px green;
+float: left;
+position: relative;
+
+}
+
+.addButton:hover{
+
+
+	position: relative;
+	top: 3px;
+	left:3px;
+	box-shadow: 1px 1px 5px green;
+}
+
+.addButtonQ:hover{
+
+
+	position: relative;
+	top: 3px;
+	left:3px;
+	box-shadow: 1px 1px 5px green;
+}
+
+.plus{
+	font-weight: bold;
+	color:  #FFFFF1;
+	font-size: 150px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 2px 2px 0 rgba(72,146,47,0.7),
+             -2px 2px 0 rgba(72,146,47,0.7),
+             2px -2px 0 rgba(72,146,47,0.7),
+             -2px -2px 0 rgba(72,146,47,0.7);
+}
+
+.plusQ{
+	font-weight: bold;
+	color:  #FFFFF1;
+	font-size: 150px;
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-shadow: 2px 2px 0 rgba(72,146,47,0.7),
+             -2px 2px 0 rgba(72,146,47,0.7),
+             2px -2px 0 rgba(72,146,47,0.7),
+             -2px -2px 0 rgba(72,146,47,0.7);
+}
+
+.addMore{
+color: rgba(72,146,47,0.7);
+font-weight: bold;
+position: absolute;
+bottom: 0%;
+left:25%;
+font-size: 40px;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+.addMoreQ{
+color: rgba(72,146,47,0.7);
+font-weight: bold;
+position: absolute;
+bottom: 0%;
+left:25%;
+font-size: 40px;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+
+/*ーーーーーーーーーーーーーーー二ページ目ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+
+.episodeBox{
+height: 10%;
+
+}
+
+
+.episodesZone{
+
+width: 70%;
+float: left;
+margin-bottom: 10%;
+}
+
+.subZone{
+
+width: 22%;
+float: right;
+min-height: 100vh;
+border-radius: 5px;
+margin-top: 2%;
+box-shadow: 2px 0px 10px 1px rgba(149,111,41,0.29);
+position: relative;
+
+}
+
+
+.episodeText{
+
+margin-left: 3%;
+display: inline-block;
+width: 95%;
+overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+float: left;
+font-size: 14px;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+color: #7E5737;
+
+}
+
+.episodeText1{
+
+margin-left: 3%;
+display: inline-block;
+width: 76%;
+overflow: hidden;
+display: -webkit-box;
+-webkit-box-orient: vertical;
+-webkit-line-clamp: 2;
+float: left;
+font-size: 14px;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+color: #7E5737;
+
+}
+
+
+.introductionFillBox{
+
+
+	font-size:16px;
+	border-radius: 5px;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+.introductionFillBox:focus{
+
+  outline-color: rgba(170,207,83);
+  outline-width: 4px;
+
+}
+
+
+.introductionEdit{
+
+
+/*	background-color: blue;*/
+	/*height: 215px;*/
+	text-align: center;
+	margin-top: 15px;
+
+}
+
+.introductionSendButton{
+	display: block;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+	font-size: 13px;
+	width: 80px;
+	line-height: 2.1;
+	border: 1px solid #956F29;
+	border-radius: 3px;
+	color: #956F29;
+	margin-left: 192px;
+	background-color: #FFFFF1;
+	cursor : pointer;
+
+}
+
+.introductionSendButton:hover{
+
+	background-color: #F8F4E6;
+}
+
+.episodeEdit{
+position: relative; 
+display: inline-block;
+margin-left: 2%;
+text-align: center;
+width: 8%;
+border: 1px solid #956F29;
+border-radius: 4px;
+height: 40%;
+
+}
+
+.episodeDelete{
+position: relative; 
+display: inline-block;
+margin-left: 0.5%;
+text-align: center;
+width: 8%;
+border: 1px solid #956F29;
+border-radius: 4px;
+height: 40%;
+text-decoration: none;
+}
+
+.episodeEdit div{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: #956F29;
+}
+
+.episodeDelete div{
+
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	text-decoration: none;
+	color: #956F29;
+
+}
+
+.episodeSend:hover{
+
+background-color: #F8F4E6;
+
+}
+
+.storeChoose a div:hover{
+
+background-color: #F8F4E6;
+
+}
+
+.readTop:hover{
+
+background-color: #F8F4E6;
+
+}
+
+
+.episodeEdit:hover{
+
+background-color: #F8F4E6;
+
+}
+
+.episodeDelete:hover{
+
+background-color: #F8F4E6;
+
+}
+
+.episodeEdit:active{
+
+position: relative;
+top:1px;
+left: 1px;
+
+	}
+
+.episodeDelete:active{
+
+position: relative;
+top:1px;
+left: 1px;
+
+}
+
+.episodeSend:active{
+
+position: relative;
+top:1px;
+left: 1px;
+
+	}
+
+.storeChoose a div:active{
+
+position: relative;
+top:1px;
+left: 1px;
+
+
+	}
+
+
+.readTop:active{
+
+position: relative;
+top:1px;
+left: 1px;
+
+}
+
+.oneBox{
+	height: 100px;
+	margin-top:3%;
+	border: 1px solid #956F29;
+	border-radius: 4px;
+
+}
+
+
+.addEpisodeBox{
+
+margin-top: 3%;
+display: block;
+height: 100px;
+border: 1px solid #956F29;
+border-radius: 4px;
+position: relative;
+text-decoration: none;
+
+
+}
+
+.addEpisodeBox:hover{
+
+background-color: #F8F4E6;
+
+}
+
+
+
+.addEpisodeBox:active{
+
+position: relative;
+top:2px;
+left: 2px;
+
+}
+
+.addEpisode{
+font-weight: bold;
+font-size: 80px;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+position: absolute;
+top: 45%;
+left: 50%;
+color: #FFFFF1;
+transform: translate(-50%, -50%);
+text-shadow: 2px 2px 0 rgba(199,179,112,0.7),
+             -2px 2px 0 rgba(199,179,112,0.7),
+             2px -2px 0 rgba(199,179,112,0.7),
+             -2px -2px 0 rgba(199,179,112,0.7);
+
+
+
+}
+
+.newEpisode{
+
+background-color: blue;
+margin-bottom: 5%;
+
+}
+
+
+.imageSetting{
+position: relative;
+background-size: cover;
+width: 256px;
+height: 217px;
+border-radius: 5px;
+margin: 5% auto 1% auto;
+overflow: hidden;
+}
+
+.imageSetting a{
+color: rgba(13,0,21,0.6);
+position: absolute;
+bottom: 1%;
+right: 1%;
+
+}
+
+.imageSetting a:hover{
+
+	color: black;
+}
+
+
+.introductionSetting{
+
+position: relative;
+margin: 5% auto 0px auto ;
+width: 90%;
+border-radius: 5px;
+text-decoration: underline dashed #9B7853;
+color: #9B7853;
+}
+
+.introductionEditButton{
+color: #524E4D;
+text-decoration: underline;
+cursor : pointer;
+margin-left: 230px;
+
+}
+
+.settings{
+/*border-left: solid 6px rgba(179,128,0,0.8);*/
+color: #956F29;/*文字色*/
+box-shadow: 0px 2px 2px rgba(149,111,41,0.29);
+text-align: center;
+}
+
+.episodesTitle{
+	display: block;
+	border-radius: 4px;
+	margin-top: 3%;
+	border: solid 1px;
+	text-align: center;
+	color: #956F29;
+	text-decoration: none;
+
+}
+
+.episodesTitle:hover{
+	background-color: #F8F4E6;
+}
+
+/*ーーーーーーーーーーーーーーー三ページ目ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+
+.readOneBox{
+
+	width: 90%;
+	margin: 0% auto 4% auto;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+	color: #7E5737;
+}
+
+
+.readTitle{
+	margin-top: 1.5%;
+	margin-bottom: 20px;
+	display: inline-block;
+	background: linear-gradient(transparent 70%, #EBD842 80%);
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+	color: #7E5737;
+}
+
+.episodeTitle{
+
+
+	text-decoration: none;
+	color:#7E5737;
+}
+
+.readTop{
+	display: block;
+	background-color: #FFFFF1;
+	border: 1px solid #956F29;
+	border-radius: 3px;
+	color: #956F29;
+	text-decoration: none;
+	width: 90%;
+	/*height: 10%;*/
+	line-height: 2.5;
+	text-align: center;
+	margin: 5% auto 3% auto;
+/*	margin-left: 80%; */
+}
+
+/*ーーーーーーーーーーーーーーー四ページ目ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+.createTitle{
+
+width: 80%;
+margin: 2% auto 0 auto;
+border: 1px solid #956F29;
+border-radius: 3px;
+text-align: center;
+height: 2.5%;
+color: #956F29;
+font-weight: bold;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+
+}
+
+.createTitles{
+display: block;
+width: 100%;
+line-height: 3;
+box-sizing: border-box;
+margin-top: 10px;
+}
+
+.createTitles, .createText, .storeChoose a div{
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+border: 1px solid #956F29;
+border-radius: 4px;
+}
+
+.createTitles:focus::placeholder{
+  color: transparent;
+}
+
+.createTitles:focus::-webkit-input-placeholder{
+color:transparent;
+
+ }
+
+
+.createText:focus::placeholder{
+  color: transparent;
+}
+
+.createText:focus::-webkit-input-placeholder{
+color:transparent;
+
+ }
+
+.createTitles, .createText, .episodeSend:focus{
+
+ 	outline: 0;
+
+ }
+
+.createEpisodeForm{
+	width: 75%;
+	border-radius: 10px;
+	margin: 2% auto 3% auto;
+	padding-top: 1px;
+}
+
+.createText{
+	margin-top: 2%;
+	display: block;
+	border-radius: 10px;
+}
+
+.episodeSend{
+	display: block;
+	margin: 2% 0 0 80%;
+	width: 20%;
+	line-height: 40px;
+	background-color: #FFFFF1;
+	border: 1px solid #956F29;
+	border-radius: 3px;
+	color: #956F29;
+}
+
+
+/*ーーーーーーーーーーーーーーー五ページ目ーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーーー*/
+.storeConfirmed{
+
+	width: 35%;
+	margin: 2% auto 0 auto;
+	text-align: center;
+	font-size: 20px;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+	color: #956F29;
+}
+
+.storeChoose{
+	margin-top: 1.5%;
+	text-align: center;
+
+}
+
+.storeChoose a div{
+
+display: inline-block;
+width: 14%;
+margin-left: 50px;
+margin-right: 50px;
+text-decoration: none;
+color: #956F29;
+
+}
+
+
+.line{
+
+color: #956F29;
+border-bottom: 1px solid #956F29;
+margin-top: 3%;
+
+}
+
+.storeText{
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+color: #956F29;
+width: 85%;
+margin: 4% auto 2% auto;
+
+}
+
+.pagination li{
+    display: inline-block;
+    margin-left: 1%;
+    line-height: 1%;
+    text-decoration: none;
+    position: relative;
+    width: 1%;
+    font-size: 19px;
+    color: #E0EBAF;
+}
+
+.pagination li a{
+    
+    text-decoration: none;
+    color: #B8D200;
+
+}
+
+
+/*ログインページ*/
+.contents{
+	width: 600px;
+	margin: 50px auto;
+	font-family: 'Hiragino Maru Gothic ProN',sans-serif;
+	text-align: center;
+	background-color: rgba(224,235,175, 0.4); 
+	border-radius: 5px;
+	min-height: 70vh;
+
+}
+
+.contents label{
+
+font-size: 14px;
+
+
+}
+
+
+
+.loginlogin{
+
+
+text-align: center;
+font-size: 20px;
+margin-bottom: 3%;
+/*box-shadow: 0px 2px 2px rgba(149,111,41,0.29);*/
+}
+
+.field input{
+
+	font-size: 14px;
+	width: 50%;
+}
+
+.rememberMe{
+
+	display: inline;
+}
+
+.loginloginButton{
+
+	font-size: 16px;
+	width: 51%;
+	background-color: rgba(103,167,12);
+	margin-top: 3.5%;
+	border-radius: 3px;
+	color: white;
+}
+
+.touroku{
+
+	margin-top: 7%;
+	font-size: 12px;
+}
+
+.tourokuButton{
+
+	display: block;
+	width: 50%;
+	margin: 0 auto;
+	border-radius: 3px;
+	background-color: rgba(103,167,12);
+	font-size: 16px;
+	text-decoration: none;
+	margin-top: 2%;
+	color: white;
+}
+
+.loginHover:hover{
+
+background-color: rgba(103,167,12, 0.7);
+}
+
+.signButton{
+
+margin-top: 6%;
+line-height: 2.5;
+
+}
+
+.bird{
+
+margin-right: 4px;
+
+}
+
+.createStoryForm{
+
+
+	margin: 20px auto 0 auto;
+	width: 75%;
+	height: 50%;
+	border-radius: 5px;
+	box-shadow: 2px 0px 10px 1px rgba(149,111,41,0.29);
+
+}
+
+
+.Sbox{
+
+	width: 65%;
+	margin: 20px auto 20px auto;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+
+}
+.Snewtitle{
+	color: #956F29;
+	margin: 20px auto 0 auto;
+	text-align: center;
+	width: 700px;
+	font-size: 25px;
+	 border-left: solid 10px rgba(72,146,47,0.7);
+/*	 box-shadow: 2px 2px 2px rgba(149,111,41,0.29);*/
+	 box-shadow: 2px 0px 10px 1px rgba(149,111,41,0.29);
+	 display: block;
+}
+
+
+.Ssentence{
+
+	font-size: 13px;
+	margin-top: 20px;
+	
+	display:inline-block;
+}
+
+.Simage{
+
+	margin-left: 5px;
+}
+
+.Stitle{
+
+	display: block;
+	line-height: 2;
+	margin: 20px auto 0 auto;
+	font-size: 15px;
+	width: 655px;
+	border: 1px solid #956F29;
+	border-radius: 3px;
+}
+
+.Stitle:focus{
+
+  outline-color: rgba(170,207,83);
+  outline-width: 4px;
+
+}
+
+
+.Sintroduction{
+	border: 1px solid #956F29;
+	border-radius: 3px;
+	display: block;
+	margin: 10px auto 10px auto;
+	font-size: 15px;
+}
+
+.Sintroduction{
+
+
+  outline-color: rgba(170,207,83);
+  outline-width: 4px;
+}
+
+.publish{
+
+vertical-align: top;
+
+}
+
+.goo{
+
+font-size: 12px;
+vertical-align: top;
+
+}
+
+.private{
+
+vertical-align: top;
+
+}
+
+.noo{
+
+font-size: 12px;
+vertical-align: top;
+
+}
+
+.Ssend{
+
+	font-size: 15px;
+	width: 660px;
+	line-height: 2;
+	border: 1px solid #956F29;
+	border-radius: 3px;
+	color: #956F29;
+	background-color: #FFFFF1;
+	cursor : pointer;
+	margin: 15px auto 0 auto;
+	display: block;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+.Ssend:hover{
+
+	background-color: #F8F4E6;
+}
+
+.deleteStory{
+
+	position: absolute;
+	bottom: 5px;
+	left: 1px;
+	width: 283px;
+	display: block;
+	text-decoration: none;
+	border-radius: 5px;
+	line-height: 50px;
+	color: red;
+	border: solid 1px red;
+	text-align: center;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+.click{
+
+	position: absolute;
+	bottom: 5px;
+	left: 1px;
+	width: 283px;
+	display: block;
+	text-decoration: none;
+	border-radius: 5px;
+	line-height: 50px;
+	color: red;
+	border: solid 1px red;
+	text-align: center;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+	cursor: help;
+
+}
+
+.deleteStory:hover{
+
+background-color: rgba(231,57,49,0.1);
+color:red;
+
+}
+
+.storegotop{
+
+	width: 700px;
+	display: block;
+	text-decoration: none;
+	border-radius: 10px;
+	line-height: 50px;
+	color: #956F29;
+	border: solid 2px #956F29;
+	margin: 50px auto;
+	text-align: center;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+
+.storegotop:hover{
+
+	background-color: #F8F4E6;
+
+}
+
+.proNameBox{
+
+	margin: 20px auto 30px auto;
+	height: 100px;
+	border: 2px solid rgba(207,168,92);
+	border-radius: 20px;
+	width: 95%;
+
+}
+
+
+.FormProNameBox{
+
+	margin: 20px auto 30px auto;
+	height: 100px;
+	border: 2px solid rgba(207,168,92);
+	border-radius: 20px;
+	width: 95%;
+
+}
+
+.proName{
+
+
+	margin-left: 5px;
+	border-bottom: 2px dashed rgba(207,168,92);
+	
+}
+
+.proName1{
+
+
+	margin-left: 5px;
+	margin-top: 17px;
+
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+
+}
+
+.proEmailBox{
+
+	margin: 0px auto 30px auto;
+	height: 100px;
+	border-radius: 20px;
+	border: 2px solid rgba(207,168,92);
+	width: 95%;
+
+
+
+}
+
+.FormProEmailBox{
+
+	margin: 0px auto 30px auto;
+	height: 100px;
+	border-radius: 20px;
+	border: 2px solid rgba(207,168,92);
+	width: 95%;
+
+
+}
+
+.proEmail{
+
+margin-left: 5px;
+border-bottom: 2px dashed rgba(207,168,92);
+
+
+}
+
+
+.proEmail1{
+
+	margin-left: 5px;
+	line-height: 60px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+
+}
+.penName{
+
+text-decoration: underline;
+
+}
+
+.penName:hover{
+
+cursor: pointer;
+
+}
+
+.penEmail{
+
+text-decoration: underline;
+
+}
+
+.penEmail:hover{
+
+cursor: pointer;
+
+}
+.editUserName{
+
+
+	font-size: 15px;
+	margin-top: 18px;
+	width: 200px;
+	line-height: 20px;
+	margin-left: 3px;
+}
+
+.userNameSend{
+
+	font-size: 13px;
+	border: 1px solid rgba(207,168,92);
+	border-radius: 3px;
+	vertical-align: middle;
+	background-color: #FFFFF1;
+
+
+}
+
+.userNameSend:hover{
+
+
+background-color: #F8F4E6;
+cursor : pointer;
+
+}
+
+
+.error{
+
+background-color: red;
+color: white;
+
+
+}
+
+
+.passwordReset{
+
+	display: block;
+	margin-top: 130px;
+	font-size: 13px;
+}
+
+
+.passwordmainbox{
+	background-color: rgba(224,235,175, 0.4); 
+	width: 55%;
+	margin: 0 auto;
+	height: 80vh;
+	text-align: center;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+}
+
+.passtitle{
+
+	margin-top: 40px;
+	text-align: center;
+	font-size: 23px;
+	font-weight: bold;
+}
+
+.passsend{
+
+display: block;
+width: 350px;
+font-size: 20px;
+cursor: pointer;
+border-radius: 3px;
+margin: 60px auto 0px auto;
+background-color: rgba(103,167,12);
+color: white;
+
+
+}
+
+
+.emailtitle{
+
+
+margin-top: 60px;
+
+}
+
+
+.emailbox{
+
+	margin-bottom: 40px;
+	width: 300px;
+}
+
+.birthbox{
+
+width: 300px;
+
+}
+
+.reseterror{
+
+
+	background-color: red;
+	color: white;
+}
+
+.pass1{
+
+margin-top: 40px;
+
+}
+
+.passwordreset{
+
+	width: 300px;
+}
+
+.passwordreset1{
+
+	width: 300px;
+
+}
+
+.bb{
+
+	font-size: 16px;
+}
+
+.resetdone{
+
+margin: 50px auto 0px auto;
+width:50%;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+text-align: center;
+color:#956F29;
+
+}
+
+.warning{
+
+margin: 50px auto 100px auto;
+width:50%;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+text-align: center;
+color:#956F29;
+}
+
+
+.resetdones{
+
+margin: 50px auto 0px auto;
+width:50%;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+text-align: center;
+color: red;
+font-weight: bold;
+font-size: 80px;
+
+}
+
+.errorpass{
+
+	width: 450px;
+	margin: 50px auto;
+	color: red;
+	font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+
+}
+
+.errorpass2{
+
+	background-color: #FFFFF1;
+	border: 1px solid #956F29;
+	border-radius: 3px;
+	color: #956F29;
+	text-decoration: none;
+	display: block;
+	width: 500px;
+	text-align: center;
+	margin-left: 380px;
+
+
+}
+
+
+.changepix{
+
+	text-decoration: underline;
+	width: 80px;
+	margin: 186px 0px 0px auto;
+	cursor: pointer;
+}
+
+
+.imageSettingForm{
+
+
+background-color: #649443;
+width: 256px;
+height: 217px;
+border-radius: 5px;
+margin: 5% auto 1% auto;
+overflow: hidden;
+
+
+}
+
+.imageEdit{
+
+
+	display: block;
+	margin-top: 90px;
+	margin-left: 20px;
+	font-size: 13px;
+	width: 230px;
+	overflow: hidden;
+}
+
+
+.imageSend{
+
+
+background-color: #649443;
+
+	margin-top: 80px;
+	margin-left: 200px;
+	font-size: 18px;
+	border-style: none;
+	text-decoration: underline;
+	color: #444444;
+	cursor: pointer;
+}
+
+.informationImage{
+
+height: 59px;
+width: 50px;
+background-size: cover;
+display: inline-block;
+float: left;
+margin-top: 10px;
+margin-left: 5px;
+margin-right: 3px;
+border-radius: 30px;
+
+}
+
+.informationName{
+
+
+	background-color: #EBE1A9;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+
+
+
+}
+
+.yuza{
+
+
+text-decoration: none;
+display: block;
+margin: 30px auto 30px auto;
+text-align: center;
+font-family: 'ヒラギノ丸ゴ ProN','Hiragino Maru Gothic ProN',sans-serif;
+background-color: #EBE1A9;
+line-height: 50px;
+width: 280px;
+border-radius: 5px;
+color:#696969;
+}
+
+.yuzaegg{
+
+color: #CFA85C;
+
+}
+
+
+.usersBox{
+
+width:1200px;
+margin: 60px auto;
+overflow: hidden;
+
+}
+
+.Userpic{
+
+width: 150px;
+height: 150px;
+background-size: cover;
+
+}
+
+.UserName{
+
+width: 150px;
+text-align: center;
+overflow: hidden;
+text-overflow: ellipsis;
+white-space: nowrap;
+
+
+}
+
+.oneUser{
+
+	display: inline-block;
+	height: 200px;
+	width: 170px;
+	margin-bottom: 80px;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+
+.loginerror{
+
+
+
+	background-color: red;
+	color: white;
+}
