@@ -12,10 +12,10 @@ class EpisodesController extends Controller
 {
 
     //ログインコントローラー
-    public function __construct()
-    {
-        $this->middleware('auth', array('only' => 'create'));
-    }
+    // public function __construct()
+    // {
+    //     $this->middleware('auth', array('only' => 'create'));
+    // }
 
 	//エピソード作成画面
     public function create($id){
