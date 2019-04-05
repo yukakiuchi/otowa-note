@@ -28,7 +28,6 @@ class StoriesController extends Controller
     	$story = Story::all();
         // $episode = Episode::take(3)->orderBy('created_at', 'DESC')->get(); 
        $episode = Episode::with('user')->orderBy('created_at', 'DESC')->take(3)->get();
- 
 
     	return view('Stories.index')->with(array('story' => $story, 'episode' => $episode));
 

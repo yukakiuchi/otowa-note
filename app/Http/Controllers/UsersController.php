@@ -9,6 +9,7 @@ use App\User;
 use App\Story;
 use App\Episode;
 use Image;
+use Auth;
 
 class UsersController extends Controller
 {
@@ -75,9 +76,51 @@ class UsersController extends Controller
 
         public function showall(){
 
-           $users = User::all();
 
-           return view('Users.showall')->with('users', $users);
+        $users = User::withTrashed()->get();
+        $userss = User::all();
+
+           return view('Users.showall')->with(array('users'=> $users, 'userss' => $userss));
+
+        }
+
+        public function deledele($id){
+
+            if(Auth::check() && Auth::user()->id == 1){
+
+                User::find($id)->delete();
+
+                return back();
+
+            }
+            else{
+
+
+                return redirect('/');
+            }
+            
+
+           
+
+
+
+        }
+
+
+        public function again($id){
+
+
+            if(Auth::check() && Auth::user()->id == 1){
+
+                User::onlyTrashed()->where('id', $id)->restore();
+
+                return back();
+
+            }else{
+
+
+                return redirect('/');
+            }
 
         }
 }

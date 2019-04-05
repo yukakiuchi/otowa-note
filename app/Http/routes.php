@@ -45,6 +45,10 @@ Route::post('/stories/{id}/episode/store', 'EpisodesController@store');
 Route::get('/show/alluser','UsersController@showall');
 
 
+
+Route::get('/user/deledele/{id}','UsersController@deledele');
+Route::get('/live/again/{id}','UsersController@again');
+
 });
 
 

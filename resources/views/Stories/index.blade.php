@@ -2,6 +2,7 @@
 
 @section('content')
 <div class="post">
+
 	<div class="topSaku">作品一覧</div>
 
 	@foreach($story as $story)

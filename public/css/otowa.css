@@ -293,14 +293,16 @@ background-size: cover;
 .basic{
 	width: 90%;
 	margin: 0 auto;
+	background-color: pink;
 }
 
 .post{
 
-	float: left;
-	width: 900px;
-	margin-bottom: 60px;
-
+	display: inline-block;
+	width: 400px;
+	margin-top: 25px;
+	background-color: red;
+	vertical-align: top;
 }
 
 .postQ{
@@ -311,12 +313,15 @@ background-size: cover;
 }
 
 .information{
-	min-height: 100vh;
+	vertical-align: top;
+	min-height: 90vh;
 	margin-top: 25px;
 	width: 300px;
-	float: right;
+	margin-left: 14vh;
+	display: inline-block;
 	border-radius: 5px;
 	box-shadow: 2px 0px 10px 1px rgba(149,111,41,0.29);
+	background-color: blue;
 
 }
 
@@ -1741,4 +1746,11 @@ white-space: nowrap;
 
 	background-color: red;
 	color: white;
+}
+
+.lolo{
+
+
+	display: inline-block;
+	background-color: yellow;
 }
