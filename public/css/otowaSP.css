@@ -1,0 +1,382 @@
+
+/* スマホ用 */
+@media screen and (max-width: 479px) {
+
+	header{
+		background-color: #649443;
+		height: 40px;
+	}
+
+	.post, .postQ{
+		width: 65vw;
+		float: left;
+		margin-bottom: 60px;
+	}
+
+	.storiesLink{
+		display: inline-block;
+		height: 70px;
+		width: 70px;
+		margin-top: 6%;
+		margin-left: 7%;
+		margin-right: 7%;
+	}
+
+	.topStories{
+	height: 100%;
+	width: 100%;
+	border-radius: 5px;
+	}
+
+	.topStoriesQ, .addButtonQ{
+		height: 75px;
+		width: 20vw;
+		border-radius: 5px;
+	}
+
+	.addMoreQ{
+		font-size: 10px;
+	}
+
+	.plusQ{
+		font-size: 30px;
+	}
+
+	.topTitle, .topTitleQ{
+		font-size: 8px;
+		transform: scale(0.8);
+		top: 40%;
+		left: 10%;
+	}
+
+	.information{
+		min-height: 87vh;
+		margin-top: 16px;
+		width: 25%;
+		border-radius: 2px;
+	}
+
+
+	.informationName{
+		max-height: 15px;
+	}
+
+	.informationText{
+		font-size: 5px;
+		transform: scale(0.5);
+		max-height: 30px;
+		width: 23vw;
+		margin-top: 7px;
+		margin-left: 0px;
+	}
+
+	.basic{
+		width: 95%;
+		font-size: 10px;
+	}
+
+	.new{
+		font-size: 10px;
+		margin-bottom: 10%;
+	}
+
+	.topSaku{
+		margin-top: 15px;
+	}
+
+	.yuza{
+	margin: 3px auto 8px auto;
+	transform: scale(0.95);
+	line-height: 23px;
+	width: 95%;
+	border-radius: 2px;
+	font-size: 9.5px;
+	}
+
+	.informationImage{
+	height: 15px;
+	width: 15px;
+	background-size: cover;
+	display: inline-block;
+	margin-top: 1px;
+	margin-left: 5px;
+	margin-right: 3px;
+	border-radius: 2px;
+	}
+
+	.informationBox{
+		border: 3px solid #EBE1A9;
+		height: 60px;
+		margin: 0 auto 20px auto;
+		border-radius: 5px;
+		color: #956F29;
+		width: 90%;
+		display: block;
+		text-decoration: none;
+	}
+
+	.headIcon{
+		font-size: 5vw;
+	}
+
+	.headAll{
+		font-size: 4.8vw;
+	}
+
+	.gogo{
+		margin-top: 0.6vh;
+		margin-left: 28vw;
+	}
+
+	.loginbutton{
+		font-size: 3vw;
+		right: 3vw;
+		top: 1.5vh;
+	}
+
+	.contents{
+		width: 93vw;
+		height: 500px;
+		min-height: initial;
+	}
+
+	.field input{
+		width: 65vw;
+	}
+
+	.loginloginButton{
+		width: 66.5vw;
+		margin-top: 30px;
+	}
+
+	.tourokuButton{
+		width: 66.5vw;
+	}
+
+	.touroku{
+		margin-top: 40px;
+	}
+
+	.tourokuButton{
+		margin-top: 20px;
+	}
+
+	.passwordReset{
+		margin-top: 80px;
+	}
+
+	.logoutbutton{
+		font-size: 3vw;
+		right: 3vw;
+		top: 1.5vh;
+		width: auto;
+	}
+
+	.episodeText1{
+		margin-top: 10px;
+		font-size: 10px;
+		width: 48vw;
+	}
+
+	.episodeEdit{
+		margin-top: 5px;
+		width: 13vw;
+		height: 20px;
+	}
+
+	.episodeDelete{
+		margin-left: 5px;
+		width: 13vw;
+		height: 20px;
+	}
+
+	.oneBox{
+		height: 85px;
+	}
+
+	.addEpisodeBox{
+		height: 80px;
+	}
+
+	.addEpisode{
+		font-size: 65px;
+	}
+
+	.imageSetting{
+		width: 19.5vw;
+		height: 76px;
+	}
+
+	.settings{
+		font-size: 10px;
+	}
+
+	.subZone{
+		min-height: 90vh;
+	}
+
+	.click{
+		width: 19vw;
+		line-height: 30px;
+	}
+
+	.introductionEditButton{
+		margin-left: initial;
+	}
+
+	.introductionFillBox{
+		width: 19vw;
+		font-size: 10px;
+	}
+
+	.introductionSendButton{
+		margin-left: 7px;
+		font-size: 12px;
+		width: 17vw;
+	}
+
+	.createTitles{
+		width: 71vw;
+	}
+
+	.episodeSend{
+		width: 20vw;
+		float: right;
+		margin-left: initial;
+		line-height: 30px;
+	}
+
+	.storeChoose a div{
+		width: 28vw;
+		margin: initial;
+	}
+
+	.storeConfirmed{
+		font-size: 14px;
+	}
+
+	.passwordmainbox{
+		width: 90vw;
+	}
+
+	.passsend{
+		width: 300px;
+	}
+
+	.loginName{
+		font-size: 10px;
+		margin-left:2.5vw;
+	}
+
+	.proNameBox, .proEmailBox{
+		height: 45px;
+		border-radius: 10px;
+	}
+
+	.proName1{
+		margin-top: 5px;
+	}
+
+	.proEmail1{
+		margin-top: 5px;
+		line-height: 18px;
+	}
+
+	.editUserName {
+		font-size: 10px;
+		margin-top: 5px;
+		width: 16vw;
+		line-height: 15px;
+		margin-left: 3px;
+	}
+
+	.userNameSend{
+		font-size: 10px;
+		margin-left: 9.5vw;
+		line-height: 12px;
+		margin-top: 3px;
+	}
+
+	.FormProNameBox, .FormProEmailBox{
+		height: 70px;
+		border-radius: 10px;
+	}
+}
+
+
+@media only screen and (min-width:640px) and (max-width:1024px) {
+
+	.post{
+		width: 65vw;
+		float: left;
+		margin-bottom: 60px;
+
+	}
+
+	.topStories{
+
+	height: 15vh;
+	width: 20vw;
+
+	}
+
+	.topTitle{
+		font-size: 8px;
+		transform: scale(0.8);
+		top: 40%;
+		left: 10%;
+	}
+
+	.information{
+		margin-top: 1.5vh;
+		width: 25%;
+		border-radius: 2px;
+		min-height: 87vh;
+	}
+
+	.basic{
+		width: 95%;
+		font-size: 10px;
+	}
+
+	.new{
+		font-size: 10px;
+		margin-bottom: 10%;
+	}
+
+	.yuza{
+	margin: 3px auto 8px auto;
+	transform: scale(0.95);
+	line-height: 23px;
+	width: 95%;
+	border-radius: 2px;
+	font-size: 9.5px;
+	}
+
+	.informationText{
+		font-size: 9px;
+		transform: scale(0.9);
+		width: 95%;
+		margin-top: 15px;
+		margin-left: 0.7vw;
+	}
+
+	.informationImage{
+
+	height: 20px;
+	width: 20px;
+	background-size: cover;
+	display: inline-block;
+	float: left;
+	margin-top: 10px;
+	margin-left: 5px;
+	margin-right: 3px;
+	border-radius: 5px;
+
+	}
+
+	.logoutbutton{
+		width: auto;
+		top: 30px;
+	}
+}

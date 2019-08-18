@@ -8,19 +8,19 @@
 <!-- 	@foreach( $allStory as $allStory)
 
 		@if($allStory->category == 1)
-		
+
 			<a href="/stories/{{ $allStory->id }}/show" class="storiesLinkQ">
-				
+
 				<div class="topStoriesQ" style="background-image: url(/storiesPictures/{{ $allStory->image }});">
-			
+
 					<div class="iyayoQ">
 						<p class="topTitleQ">{{ $allStory->title }}</p>
 						<p class="topIntroductionQ">{{ $allStory->introduction }}</p>
 					</div>
-		
+
 				</div>
 			</a>
-		
+
 		@endif
 
 	@endforeach -->
@@ -28,11 +28,11 @@
 
 
 	@foreach($story as $story)
-		
+
 	<a href="/stories/{{ $story->id }}/show" class="storiesLinkQ">
-		
+
 		<div class="topStoriesQ" style="background-image: url(/storiesPictures/{{ $story->image }});">
-	
+
 			<div class="iyayoQ">
 				<p class="topTitleQ">{{ $story->title }}</p>
 				<p class="topIntroductionQ">{{ $story->introduction }}</p>
@@ -40,8 +40,6 @@
 
 		</div>
 	</a>
-	
-		
 
 	@endforeach
 
@@ -85,14 +83,14 @@
 
 
 	<div class="proNameBox">
-		<div class="proName">名前 
+		<div class="proName">名前
 
 			@if( Auth::check() && Auth::user()->id == $myuser->id)
 			<i class="fas fa-pencil-alt penName"></i>
 			@endif
 
 		</div>
-			
+
 
 		<div class="proName1">{{ $myuser->name }}</div>
 	</div>
@@ -110,7 +108,7 @@
 	</div>
 
 	<div class="proEmailBox">
-		<div class="proEmail">メールアドレス
+		<div class="proEmail">メアド
 
 			@if( Auth::check() && Auth::user()->id == $myuser->id)
 			<i class="fas fa-pencil-alt penEmail"></i>
@@ -122,7 +120,7 @@
 	<div class="FormProEmailBox">
 	{{ Form::open(['url' => "/users/edit/email", 'method' => 'patch']) }}
 
-				<div class="proName">メールアドレス</div>
+				<div class="proName">メアド</div>
 				<input type="email" name="email" class="editUserName" value="{{ $myuser->email }}">
 				<input type="hidden" name="url" value="{{ Request::path() }}">
 				<input type="hidden" name="user_id" value="{{ $myuser->id }}">

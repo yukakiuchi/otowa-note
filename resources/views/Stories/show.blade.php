@@ -12,12 +12,12 @@
 
 
 	<div class="episodeBox">
-	
+
 	@foreach($episodes as $episode)
-		
+
 	<div class="oneBox">
 	<a href="/episodes/show/{{$episode->id}}" class="episodeTitle">{{ $episode->title}}</p></a>
-	
+
 
 	@if( Auth::check() && Auth::user()->id == $episode->user_id)
 	<p class="episodeText1">{{ $episode->text }}</p>
@@ -30,7 +30,7 @@
 	@endif
 
 	</div>
-	
+
 
 	@endforeach
 
@@ -64,23 +64,23 @@
 		</div>
 
 		<div class="introductionSetting">{{ $story->introduction}}</div>
-		
+
 
 		@if(Auth::check() && Auth::user()->id == $story->user_id)
 			<div href="" class="introductionEditButton">編集</div>
 		@endif
 
-	
+
 
 	<div class="introductionEdit">
 	{{ Form::open(['url' => "/stories/$story->id/introductionEdit", 'method' => 'patch']) }}
-	
+
             <textarea name="introduction" cols="30" rows="6" maxlength="100" class="introductionFillBox" required>{{ $story->introduction }}</textarea>
 	        <input type="hidden" name="url" value="{{ Request::path() }}">
 	</div>
-	      
+
 	        <input type="submit" value="送信" class="introductionSendButton">
-	
+
 	{{ Form::close() }}
 
 

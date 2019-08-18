@@ -9,7 +9,7 @@
                 @foreach ($errors->all() as $error)
                   <div class="loginerror">{{ $error }}</div>
                 @endforeach
-    
+
         <div class="field">
             <label>Email</label><br>
             <input type="email" name="email" autofocus="autofocus" class="ddd">
@@ -26,7 +26,7 @@
         </div>
     {{ Form::close() }}
 
-    <div class="touroku">---------------------まだ登録していない方は---------------------</div>
+    <div class="touroku">--------------------まだ登録していない方は--------------------</div>
     <a href="/register" class="tourokuButton loginHover">新規登録</a>
 
 
